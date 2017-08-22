@@ -11,6 +11,8 @@
 %%但是对于一般信号来说，本身就是时域有限信号，相当于时域信号范围之外也全都是零，所以相对于时域有限信号而言，本身补零不存在引入干扰的说法
 %%由作出的图也可以发现，不论是补零还是增加采样点，DFT都是在DTFT上的采样，表示DFT并不会对DTFT产生干扰
 %%但是明显，增加采样点后的DFT更加贴近于无限信号cos与sin 的频谱，（但是这不是由于栅栏效应引起的，而是由于有限截取（加窗），产生的旁瓣泄露）
+%%访问此网站
+%https://books.google.com.hk/books?id=JUqy-M3XqZwC&pg=PA222&lpg=PA222&dq=DFT+%E8%A1%A5%E9%9B%B6&source=bl&ots=ETTvvtV_Kx&sig=XGfuEOV1Y8Fd1wiDXCH-Q47CiqE&hl=zh-CN&sa=X&ved=0ahUKEwjf09DQ1-nVAhVBNbwKHYcSBnIQ6AEIVjAJ#v=onepage&q=DFT%20%E8%A1%A5%E9%9B%B6&f=false
 %%
 %%通过补零来验证图像
 M=64;%M点是采样点的
